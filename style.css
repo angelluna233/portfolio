@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    justify-content: right;
+    gap: 30px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+
+.container{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "head head"
+    "bio pic"
+    "nothing pic"
+    "footer footer";
+
+}
+
+
+footer{
+    grid-area: footer;
+    font-size: 35px;
+    background-color: rgb(41, 41, 41);
+    color: rgb(233, 233, 233);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 60px;
+    text-align: center;
+    align-content: center;
+    height: 55px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.image{
+    background-color: rgb(0, 0, 0);
+    margin: 2px;
+    padding-left: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "pic1 pic2 pic3"
+    "pic4 pic5 pic6"
+    "pic7 pic8 pic9"
+    "pic10 pic11 pic12"
+    "pic13 pic14 pic15"
+    "pic16 pic17 pic18";
+}
+
+
+.project-card img {
+  width: 100%;
+  height: 200px;       /* fixed display height */
+  object-fit: cover;   /* crops excess while keeping aspect ratio */
+  border-radius: 8px;
+}
+
+
+
+img{
+    width: 60%;
+    height: auto;
+}
+
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+
+
+.title{
+    font-size: 35px;
+    background-color: rgb(41, 41, 41);
+    color: rgb(233, 233, 233);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.aboutme{
+    background-color: rgb(245, 245, 245);
+    margin: 10px;
+    grid-area: bio;
+}
+
+.head{
+    background-color: rgb(127, 126, 179);
+    grid-area: head;
+    display: flex;
+    height: 100px;
+}
+
+.placeholder{
+    background-color: rgb(127, 126, 179);
+    grid-area: pic;
+    height: 500px;
+    margin:10px;
+}
+
+.pic1{
+    margin: 10px;
+    grid-area: pic1;
+    height: auto;
+    aspect-ratio: 1.44/1;
+}
+
+.pic2{
+    margin: 10px;
+    grid-area: pic2;
+    height: auto;
+    aspect-ratio: 1.44/1;
+}
+
+.pic3{
+    margin: 10px;
+    grid-area: pic3;
+    height: auto;
+    aspect-ratio: 1.44/1;
+}
+
+.pic4{
+    margin: 10px;
+    grid-area: pic4;
+    height: auto;
+    aspect-ratio: 1.44/1;
+}
+
+.pic5{
+    margin: 10px;
+    grid-area: pic5;
+    height: auto;
+    aspect-ratio: 1.44/1;
+}
+
+.pic6{
+    margin: 10px;
+    grid-area: pic6;
+    height: auto;
+    aspect-ratio: 1.44/1;
+}
+
+.pic7{
+    margin: 10px;
+    grid-area: pic7;
+    height: auto;
+    aspect-ratio: 1.44/1;
+}
+
+.pic8{
+    margin: 10px;
+    grid-area: pic8;
+    height: auto;
+    aspect-ratio: 1.44/1;
+}
+
+.pic9{
+    margin: 10px;
+    grid-area: pic9;
+    height: auto;
+    aspect-ratio: 1.44/1;
+}
+
+.pic10{
+    margin: 10px;
+    grid-area: pic10;
+    height: auto;
+    aspect-ratio: 1.44/1;
+}
+
+.pic11{
+    margin: 10px;
+    grid-area: pic11;
+    height: auto;
+    aspect-ratio: 1.44/1;
+}
+
+.pic12{
+    margin: 10px;
+    grid-area: pic12;
+    height: auto;
+    aspect-ratio: 1.44/1;
+}
+
+.pic13{
+    margin: 10px;
+    grid-area: pic13;
+    height: auto;
+    aspect-ratio: 1.44/1;
+}
+
+.pic14{
+    margin: 10px;
+    grid-area: pic14;
+    height: auto;
+    aspect-ratio: 1.44/1;
+}
+
+.pic15{
+    margin: 10px;
+    grid-area: pic15;
+    height: auto;
+    aspect-ratio: 1.44/1;
+}
+
+.pic16{
+    margin: 10px;
+    grid-area: pic16;
+    height: auto;
+    aspect-ratio: 1.44/1;
+}
+
+.pic17{
+    margin: 10px;
+    grid-area: pic17;
+    height: auto;
+    aspect-ratio: 1.44/1;
+}
+
+.pic118{
+    margin: 10px;
+    grid-area: pic18;
+    height: auto;
+    aspect-ratio: 1.44/1;
+}
+
+form{
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  gap: 15px
+
+}
+
+#nameinput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px
+}
+
+button{
+  width: 50px;
+  margin: 10px;
+}
+
+.message{
+    height: 50px;
+}
