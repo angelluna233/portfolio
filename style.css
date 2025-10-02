@@ -23,7 +23,7 @@ nav{
     grid-template-areas: 
     "head head"
     "bio pic"
-    "nothing pic"
+    "button pic"
     "footer footer";
 
 }
@@ -48,6 +48,16 @@ footer{
     flex-direction: column;
     text-align: center;
     
+}
+
+.mywork{
+    
+    margin-left: 400px;
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    background-color: rgb(83, 83, 83);
+    color: white;
 }
 
 .image{
@@ -105,7 +115,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 400px;
+    height: 300px;
     width: 400px;
     padding-left: 300px;
     padding-right: 100px;
