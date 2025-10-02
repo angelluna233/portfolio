@@ -31,7 +31,7 @@ nav{
 
 footer{
     grid-area: footer;
-    font-size: 35px;
+    font-size: 25px;
     background-color: rgb(41, 41, 41);
     color: rgb(233, 233, 233);
     margin: 10px;
@@ -100,9 +100,16 @@ body{
 
 
 .aboutme{
-    background-color: rgb(245, 245, 245);
     margin: 10px;
     grid-area: bio;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+    padding-left: 300px;
+    padding-right: 100px;
+
 }
 
 .head{
