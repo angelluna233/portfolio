@@ -110,6 +110,9 @@ body{
     grid-area: head;
     display: flex;
     height: 100px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
 
 .placeholder{
@@ -117,6 +120,10 @@ body{
     grid-area: pic;
     height: 500px;
     margin:10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
 
 .pic1{
